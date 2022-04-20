@@ -13,6 +13,8 @@
  
 # Remark
 Getting and setting systemclock on esp32 via arduino ide was trial and error not clear at times. configtime or configTztime (update clearly) but the next step retrieving clock info from update was trial and error for me to get it right. Info or correction to this code are always welcome.
-# Improvement
+Code is good till 2038. Epochtime is 32bitvar will overflow in 2038 lol.
+
+# Help appreciated
 There must be a way to update time from your router instead of getting it from pool.org.
 Have not figured out this method.  Suggestions how to do this would be welcome.
