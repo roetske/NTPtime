@@ -9,6 +9,7 @@
  Tested the code I posted extensive works :).
  
  rtc yes. But poweroff and no wifi connection time = 0 time 1970. It is no rtc when no Wifi => cannot reload real time from net.
+ However no wifi and no poweroff clock keeps going just needs wifi at startup. when wifi is back ok it will reconnect and update.
  Real rtc you have to use separate module with battery. Only this way when no wifi and poweroff you will keep time. 
  
 # Remark
